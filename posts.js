@@ -7,7 +7,7 @@
   - file là đường dẫn tương đối, ví dụ: "documents/lich-kiem-tra.pdf".
 */
 window.SITE_DATA = {
-  siteTitle: "Bảng tin lớp học",
+  siteTitle: "Bảng tin lớp học lớp 7/4",
   schoolYear: "2026 – 2027",
   classes: [
     { id: "7-4", name: "Lớp 7/4", homeroomTeacher: "Giáo viên chủ nhiệm" },
