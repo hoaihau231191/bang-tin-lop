@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b67">
+  <meta name="description" content="Bảng tin lớp học - thông báo, tin tức và tài liệu học tập.">
+  <title>Bảng tin lớp học</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="posts.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Về trang chủ">
+        <span class="brand-mark">✦</span>
+        <span><strong>BẢNG TIN LỚP HỌC</strong><small>Kết nối thông tin – Đồng hành học tập</small></span>
+      </a>
+      <div class="header-note"><span class="live-dot"></span> Kênh thông tin lớp học</div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">THÔNG TIN • HỌC TẬP • HOẠT ĐỘNG</p>
+        <h1>Mỗi ngày đến trường<br><span>là một ngày vui.</span></h1>
+        <p class="hero-description">Nơi cập nhật thông báo, lịch học, tài liệu và những hoạt động đáng nhớ của lớp.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-circle circle-one"></div><div class="art-circle circle-two"></div>
+        <div class="art-card"><span>📚</span><b>Learn<br>together</b><i>✦</i></div>
+      </div>
+    </section>
+
+    <section class="class-bar" aria-label="Chọn lớp">
+      <div>
+        <p class="section-kicker">KHÔNG GIAN LỚP HỌC</p>
+        <h2>Chọn bảng tin</h2>
+      </div>
+      <nav id="class-nav" class="class-nav" aria-label="Danh sách lớp"></nav>
+    </section>
+
+    <section class="content-layout">
+      <div class="main-column">
+        <div class="section-heading">
+          <div><p class="section-kicker">CẬP NHẬT MỚI NHẤT</p><h2 id="feed-title">Bài đăng của lớp</h2></div>
+          <span id="post-count" class="count-pill"></span>
+        </div>
+        <div id="post-list" class="post-list" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <span>🗂️</span><h3>Chưa có bài đăng</h3><p>Bảng tin này chưa có nội dung. Vui lòng quay lại sau.</p>
+        </div>
+      </div>
+      <aside class="side-column">
+        <div class="side-card welcome-card">
+          <span class="side-icon">👋</span>
+          <p class="section-kicker">CHÀO MỪNG BẠN</p>
+          <h3>Cùng nhau cập nhật thông tin nhé!</h3>
+          <p>Phụ huynh và học sinh hãy thường xuyên theo dõi bảng tin để không bỏ lỡ những thông báo quan trọng.</p>
+        </div>
+        <div class="side-card">
+          <p class="section-kicker">THÔNG TIN</p>
+          <div class="info-row"><span>📌</span><div><b>Thông báo</b><small>Các nội dung cần lưu ý</small></div></div>
+          <div class="info-row"><span>📖</span><div><b>Học tập</b><small>Tài liệu và nhắc nhở</small></div></div>
+          <div class="info-row"><span>🎉</span><div><b>Hoạt động</b><small>Hình ảnh và tin tức lớp</small></div></div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner"><div><strong>BẢNG TIN LỚP HỌC</strong><p>Thông tin được cập nhật bởi giáo viên phụ trách lớp.</p></div><span id="footer-year"></span></div>
+  </footer>
+</body>
+</html>
